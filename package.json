@@ -1,0 +1,18 @@
+{
+  "name": "line-bot-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sls": "node_modules/.bin/sls"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^2.0.0",
+    "serverless": "^2.37.1",
+    "serverless-dotenv-plugin": "^3.9.0"
+  }
+}
